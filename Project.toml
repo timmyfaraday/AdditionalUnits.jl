@@ -1,0 +1,13 @@
+name = "AdditionalUnits"
+uuid = "02d9b4f0-7821-44c6-acbd-01a1ab91b72e"
+authors = ["Tom Van Acker"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
