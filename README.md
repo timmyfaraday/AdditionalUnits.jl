@@ -11,4 +11,4 @@ Certain categories of units have dedicated packages which treat that category in
 a more general way. It is recommended that users looking for such general 
 treatment use these packages rather than AdditionalUnits.jl:
 
-For currency: (UnitfulCurrencies.jl)[https://github.com/rmsrosa/UnitfulCurrencies.jl]
+For currency: [UnitfulCurrencies.jl](https://github.com/rmsrosa/UnitfulCurrencies.jl)
