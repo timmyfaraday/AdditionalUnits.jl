@@ -12,6 +12,7 @@ const _UF = Unitful
 # units
 @refunit            €           "€"         Euro        𝐂           true
 @unit               Wh          "Wh"        WattHour    3600.0u"J"  true     
+@unit               ton         "ton"       Ton         1000.0u"kg" true
 
 # init function to make this work at run-time
 const localunits = _UF.basefactors
