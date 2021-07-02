@@ -10,8 +10,12 @@ const _UF = Unitful
 @dimension          𝐂           "𝐂"         Currency
 
 # units
+## currency
 @refunit            €           "€"         Euro        𝐂           true
-@unit               Wh          "Wh"        WattHour    3600.0u"J"  true     
+## electricity
+@unit               VA          "VA"        VoltAmpere  1.0u"W"     true
+@unit               Wh          "Wh"        WattHour    3600.0u"J"  true
+## mass     
 @unit               ton         "ton"       Ton         1000.0u"kg" true
 
 # init function to make this work at run-time
