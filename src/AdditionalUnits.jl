@@ -11,12 +11,14 @@ const _UF = Unitful
 
 # units
 ## currency
-@refunit            €           "€"         Euro        𝐂           true
+@refunit            €           "€"         Euro                    𝐂           true
 ## electricity
-@unit               VA          "VA"        VoltAmpere  1.0u"W"     true
-@unit               Wh          "Wh"        WattHour    3600.0u"J"  true
+@unit               VA          "VA"        VoltAmpere              1.0u"W"     true
+@unit               Var         "var"       VoltAmpereReactive      1.0u"W"     true
+@unit               Wh          "Wh"        WattHour                3600.0u"J"  true
+@unit               Varh        "varh"      VoltAmpereReactiveHour  3600.0u"J"  true
 ## mass     
-@unit               ton         "ton"       Ton         1000.0u"kg" true
+@unit               ton         "ton"       Ton                     1000.0u"kg" true
 
 # init function to make this work at run-time
 const localunits = _UF.basefactors
