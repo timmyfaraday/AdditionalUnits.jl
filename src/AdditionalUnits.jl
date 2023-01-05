@@ -21,8 +21,8 @@ const _UF = Unitful
 @unit               ton         "ton"       Ton                     1000.0u"kg" true
 
 # init function to make this work at run-time
-const localunits = _UF.basefactors
-const localpromotion = _UF.promotion
+const localunits = copy(_UF.basefactors)
+const localpromotion = copy(_UF.promotion)
 function __init__()
     merge!(_UF.basefactors, localunits)
     merge!(_UF.promotion, localpromotion)
